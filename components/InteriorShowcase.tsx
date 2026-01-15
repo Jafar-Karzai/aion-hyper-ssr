@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 
 const InteriorShowcase: React.FC = () => {
   const images = [
-    "public/images/SSR-Hero3.jpg",
-    "public/images/interior-2.jpg",
-    "public/images/SSR-Hero1.jpg",
-    "public/images/airospace-2.jpg"
+    "/images/SSR-Hero3.jpg",
+    "/images/interior-2.jpg",
+    "/images/SSR-Hero1.jpg",
+    "/images/airospace-2.jpg"
   ];
 
   return (

@@ -50,7 +50,7 @@ const App: React.FC = () => {
           title="100% Carbon Fiber"
           subtitle="Movable ten million level collectible"
           description="The car body alone is worth ten million. Carbon fiber is the star of supercar manufacturing materials. Hyper SSR only chooses the optimal material, without consideration of price."
-          image="public/images/carbon-fiber.jpg"
+          image="/images/carbon-fiber.jpg"
           alignment="left"
         />
 
@@ -62,7 +62,7 @@ const App: React.FC = () => {
           title="Aerospace Precision"
           subtitle="Precision welding brings full body stiffness"
           description="A pioneering move not to compromise on materials. The birth of extraordinary works requires the creation of conditions even without proper conditions."
-          image="public/images/airospace-3.jpg"
+          image="/images/airospace-3.jpg"
           alignment="right"
         />
 
@@ -85,7 +85,7 @@ const App: React.FC = () => {
           </motion.div>
           <div className="absolute inset-0 opacity-20 pointer-events-none">
             <img 
-              src="public/images/airospace-1.jpg" 
+              src="/images/airospace-1.jpg" 
               className="w-full h-full object-cover"
               alt="Background" 
             />

@@ -14,7 +14,7 @@ const ButterflyDoors: React.FC = () => {
                 className="w-full h-full"
             >
                 <img 
-                    src="public/images/butterfly-doors3.jpg" 
+                    src="/images/butterfly-doors3.jpg" 
                     alt="Butterfly Doors" 
                     className="w-full h-full object-cover"
                 />
