@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 font-light">
                 GAC AION NEW ENERGY AUTOMOBILE CO., LTD.<br />
                 Panyu District, Guangzhou City,<br />
-                Guangdong Province, China
+                In partnership with Olcar Motors
             </p>
         </div>
 
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto mt-24 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
-        <span className="text-[10px] uppercase tracking-[0.4em] text-gray-600">© 2024 HYPER SSR. ALL RIGHTS RESERVED.</span>
+        <span className="text-[10px] uppercase tracking-[0.4em] text-gray-600">© 2026 HYPER SSR. ALL RIGHTS RESERVED.</span>
         <div className="flex space-x-8">
             {['IG', 'FB', 'TW', 'YT'].map(social => (
                 <a key={social} href="#" className="text-[10px] font-bold tracking-widest hover:text-red-600 transition-colors">{social}</a>
