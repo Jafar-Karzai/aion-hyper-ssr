@@ -7,20 +7,18 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-2 mb-8">
-                <div className="w-8 h-8 bg-white rounded-sm rotate-45 flex items-center justify-center">
-                    <div className="w-4 h-4 bg-black"></div>
-                </div>
-                <span className="text-4xl font-black tracking-tighter uppercase italic">Hyper</span>
+                <img src="/images/logo-icon.png" alt="Hyper Logo" className="w-8 h-8 object-contain" />
+                <span className="text-4xl font-black tracking-tighter uppercase italic">Hyptec</span>
             </div>
             <p className="text-gray-500 max-w-md font-light leading-relaxed">
-                Hyper is a high-end luxury brand affiliated to GAC AION, dedicated to the development of the top-level pure electric supercar industry in China.
+                Hyper is a high-end luxury brand affiliated to GAC Hyptec, dedicated to the development of the top-level pure electric supercar industry in China.
             </p>
         </div>
 
         <div>
             <h5 className="text-red-600 font-bold uppercase tracking-widest mb-6 text-sm">Location</h5>
             <p className="text-gray-400 font-light">
-                GAC AION NEW ENERGY AUTOMOBILE CO., LTD.<br />
+                GAC HYPTEC NEW ENERGY AUTOMOBILE CO., LTD.<br />
                 Panyu District, Guangzhou City,<br />
                 In partnership with Olcar Motors
             </p>

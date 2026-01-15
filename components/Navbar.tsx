@@ -12,7 +12,7 @@ const Navbar: React.FC = () => {
     >
       <div className="flex items-center space-x-2">
         <img src="/images/logo-icon.png" alt="Hyper Logo" className="w-8 h-8 object-contain" />
-        <span className="text-2xl font-black tracking-tighter uppercase italic text-white">Aion</span>
+        <span className="text-2xl font-black tracking-tighter uppercase italic text-white">hyptec</span>
       </div>
 
       <div className="hidden md:flex space-x-12">
